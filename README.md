@@ -13,6 +13,9 @@ The agent creates a unique address with Mailsac, fills in your sign-up form, wai
 email, follows the link, and tells you what it found. The same tools help it write and debug end-to-end
 tests for those flows.
 
+Read the [setup guide](https://docs.mailsac.com/en/latest/services/mcp_server/mcp_server.html) in the Mailsac
+docs or the [announcement](https://blog.mailsac.com/mailsac-mcp-server/) on the Mailsac blog.
+
 ## Tools
 
 | Tool | What it does | Mailsac operations |
