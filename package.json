@@ -1,6 +1,7 @@
 {
   "name": "@mailsac/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.mailsac/mcp",
   "description": "Official Mailsac MCP server: give AI coding agents disposable test inboxes to check signup, password-reset and one-time-code emails.",
   "license": "MIT",
   "author": "Mailsac <support@team.mailsac.com>",

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mailsac/mcp",
+  "title": "Mailsac",
+  "description": "Official Mailsac server: test inboxes for AI coding agents to read signup, reset and OTP emails.",
+  "repository": {
+    "url": "https://github.com/mailsac/mailsac-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://docs.mailsac.com/en/latest/services/mcp_server/mcp_server.html",
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@mailsac/mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "MAILSAC_API_KEY",
+          "description": "Mailsac API key (create one at https://mailsac.com/api-keys; the free plan works)",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "MAILSAC_DOMAIN",
+          "description": "Domain for new test addresses. Defaults to the public mailsac.com; set it to one of your private domains.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
